@@ -31,7 +31,7 @@
     // Do any additional setup after loading the view.
     [self configSubviews];
     [self.tableView addPullToRefreshWithActionHandler:^{
-        NSLog(@"下拉刷新.");
+        NSLog(@"下拉刷新..");
     }];
 }
 
