@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA08D2F12000AB300062C7CE /* IJKMediaFrameworkWithSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA08D2F02000AB300062C7CE /* IJKMediaFrameworkWithSSL.framework */; };
 		B70D8BFC1F9844BB00F0DA16 /* GXPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B70D8BF21F9844BA00F0DA16 /* GXPlayer.framework */; };
 		B70D8C011F9844BB00F0DA16 /* GXPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D8C001F9844BB00F0DA16 /* GXPlayerTests.m */; };
 		B70D8C031F9844BB00F0DA16 /* GXPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B70D8BF51F9844BA00F0DA16 /* GXPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -14,9 +15,6 @@
 		B70D8CC91F9854FD00F0DA16 /* GXPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D8CC71F9854FD00F0DA16 /* GXPlayerVC.m */; };
 		B70D8CDA1F98556A00F0DA16 /* GXPlayerDetailVC.h in Headers */ = {isa = PBXBuildFile; fileRef = B70D8CD81F98556A00F0DA16 /* GXPlayerDetailVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B70D8CDB1F98556A00F0DA16 /* GXPlayerDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D8CD91F98556A00F0DA16 /* GXPlayerDetailVC.m */; };
-		B7106F0C1F9F507C003C2405 /* IJKMediaFrameworkWithSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7106F0B1F9F507C003C2405 /* IJKMediaFrameworkWithSSL.framework */; };
-		B7106F0D1F9F50E8003C2405 /* IJKMediaFrameworkWithSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7106F0B1F9F507C003C2405 /* IJKMediaFrameworkWithSSL.framework */; };
-		B7106F0E1F9F50E8003C2405 /* IJKMediaFrameworkWithSSL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B7106F0B1F9F507C003C2405 /* IJKMediaFrameworkWithSSL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B72130BE1F98758E00D2196A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72130BD1F98758E00D2196A /* AudioToolbox.framework */; };
 		B72130C01F98759C00D2196A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72130BF1F98759C00D2196A /* AVFoundation.framework */; };
 		B72130C21F9875A300D2196A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72130C11F9875A300D2196A /* CoreGraphics.framework */; };
@@ -62,7 +60,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B7106F0E1F9F50E8003C2405 /* IJKMediaFrameworkWithSSL.framework in Embed Frameworks */,
 				B747A79F1F9858A500BE60C5 /* GXPlayer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -71,6 +68,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AA08D2F02000AB300062C7CE /* IJKMediaFrameworkWithSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFrameworkWithSSL.framework; path = ../../IJKMediaFrameworkWithSSL.framework; sourceTree = "<group>"; };
 		B70D8BF21F9844BA00F0DA16 /* GXPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GXPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B70D8BF51F9844BA00F0DA16 /* GXPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXPlayer.h; sourceTree = "<group>"; };
 		B70D8BF61F9844BA00F0DA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 		B70D8CC71F9854FD00F0DA16 /* GXPlayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXPlayerVC.m; sourceTree = "<group>"; };
 		B70D8CD81F98556A00F0DA16 /* GXPlayerDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXPlayerDetailVC.h; sourceTree = "<group>"; };
 		B70D8CD91F98556A00F0DA16 /* GXPlayerDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXPlayerDetailVC.m; sourceTree = "<group>"; };
-		B7106F0B1F9F507C003C2405 /* IJKMediaFrameworkWithSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFrameworkWithSSL.framework; sourceTree = "<group>"; };
 		B72130BD1F98758E00D2196A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		B72130BF1F98759C00D2196A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B72130C11F9875A300D2196A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,7 +109,7 @@
 				B75081E01F9E22B20054ED21 /* libstdc++.tbd in Frameworks */,
 				B75081DE1F9E22A80054ED21 /* libz.tbd in Frameworks */,
 				B72130D51F98762F00D2196A /* VideoToolbox.framework in Frameworks */,
-				B7106F0C1F9F507C003C2405 /* IJKMediaFrameworkWithSSL.framework in Frameworks */,
+				AA08D2F12000AB300062C7CE /* IJKMediaFrameworkWithSSL.framework in Frameworks */,
 				B72130D31F98762700D2196A /* UIKit.framework in Frameworks */,
 				B72130D11F98762000D2196A /* QuartzCore.framework in Frameworks */,
 				B72130CF1F98760600D2196A /* OpenGLES.framework in Frameworks */,
@@ -139,7 +136,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7106F0D1F9F50E8003C2405 /* IJKMediaFrameworkWithSSL.framework in Frameworks */,
 				B747A79E1F9858A500BE60C5 /* GXPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,7 +187,7 @@
 		B70D8C8C1F98531800F0DA16 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				B7106F0B1F9F507C003C2405 /* IJKMediaFrameworkWithSSL.framework */,
+				AA08D2F02000AB300062C7CE /* IJKMediaFrameworkWithSSL.framework */,
 			);
 			path = Framework;
 			sourceTree = "<group>";
@@ -545,7 +541,7 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Framework",
+					"$(PROJECT_DIR)/..",
 				);
 				INFOPLIST_FILE = GXPlayer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -571,7 +567,7 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Framework",
+					"$(PROJECT_DIR)/..",
 				);
 				INFOPLIST_FILE = GXPlayer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";

@@ -9,31 +9,31 @@
 /* Begin PBXBuildFile section */
 		AA08CB5320009CF50062C7CE /* GXAppendParamTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08CB5120009CF50062C7CE /* GXAppendParamTest.m */; };
 		AA08CB5420009CF50062C7CE /* GXUrlEncodeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08CB5220009CF50062C7CE /* GXUrlEncodeTest.m */; };
-		AA08CB9920009F9E0062C7CE /* NSURL+Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB7520009F9D0062C7CE /* NSURL+Utility.h */; };
+		AA08CB9920009F9E0062C7CE /* NSURL+Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB7520009F9D0062C7CE /* NSURL+Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA08CB9A20009F9E0062C7CE /* NSURL+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08CB7620009F9D0062C7CE /* NSURL+Utility.m */; };
-		AA08CB9B20009F9E0062C7CE /* NSString+Encode.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB7820009F9D0062C7CE /* NSString+Encode.h */; };
+		AA08CB9B20009F9E0062C7CE /* NSString+Encode.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB7820009F9D0062C7CE /* NSString+Encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA08CB9C20009F9E0062C7CE /* NSString+AppendParam.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08CB7920009F9D0062C7CE /* NSString+AppendParam.m */; };
-		AA08CB9D20009F9E0062C7CE /* NSString+AppendParam.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB7A20009F9D0062C7CE /* NSString+AppendParam.h */; };
+		AA08CB9D20009F9E0062C7CE /* NSString+AppendParam.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB7A20009F9D0062C7CE /* NSString+AppendParam.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA08CB9E20009F9E0062C7CE /* NSString+Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08CB7B20009F9D0062C7CE /* NSString+Encode.m */; };
 		AA08CB9F20009F9E0062C7CE /* NSDate+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08CB7D20009F9D0062C7CE /* NSDate+Formatter.m */; };
-		AA08CBA020009F9E0062C7CE /* NSDate+Formatter.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB7E20009F9D0062C7CE /* NSDate+Formatter.h */; };
-		AA08CBA120009F9E0062C7CE /* UIImage+Corlor.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB8120009F9D0062C7CE /* UIImage+Corlor.h */; };
-		AA08CBA220009F9E0062C7CE /* UIImage+Tint.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB8220009F9D0062C7CE /* UIImage+Tint.h */; };
-		AA08CBA320009F9E0062C7CE /* GXImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB8320009F9D0062C7CE /* GXImageManager.h */; };
+		AA08CBA020009F9E0062C7CE /* NSDate+Formatter.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB7E20009F9D0062C7CE /* NSDate+Formatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA08CBA120009F9E0062C7CE /* UIImage+Corlor.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB8120009F9D0062C7CE /* UIImage+Corlor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA08CBA220009F9E0062C7CE /* UIImage+Tint.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB8220009F9D0062C7CE /* UIImage+Tint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA08CBA320009F9E0062C7CE /* GXImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB8320009F9D0062C7CE /* GXImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA08CBA420009F9E0062C7CE /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08CB8420009F9D0062C7CE /* UIImage+Tint.m */; };
 		AA08CBA520009F9E0062C7CE /* UIImage+Corlor.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08CB8520009F9D0062C7CE /* UIImage+Corlor.m */; };
 		AA08CBA620009F9E0062C7CE /* GXImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08CB8620009F9D0062C7CE /* GXImageManager.m */; };
 		AA08CBA720009F9E0062C7CE /* UIButton+EdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08CB8820009F9D0062C7CE /* UIButton+EdgeInsets.m */; };
-		AA08CBA820009F9E0062C7CE /* UIButton+EdgeInsets.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB8920009F9D0062C7CE /* UIButton+EdgeInsets.h */; };
-		AA08CBA920009F9E0062C7CE /* GXColors.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB8B20009F9D0062C7CE /* GXColors.h */; };
+		AA08CBA820009F9E0062C7CE /* UIButton+EdgeInsets.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB8920009F9D0062C7CE /* UIButton+EdgeInsets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA08CBA920009F9E0062C7CE /* GXColors.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB8B20009F9D0062C7CE /* GXColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA08CBAA20009F9E0062C7CE /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08CB8D20009F9D0062C7CE /* UIView+Frame.m */; };
-		AA08CBAB20009F9E0062C7CE /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB8E20009F9D0062C7CE /* UIView+Frame.h */; };
-		AA08CBAC20009F9E0062C7CE /* GXDevices.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB9020009F9D0062C7CE /* GXDevices.h */; };
-		AA08CBAD20009F9E0062C7CE /* UIDevice+Device.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB9120009F9D0062C7CE /* UIDevice+Device.h */; };
+		AA08CBAB20009F9E0062C7CE /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB8E20009F9D0062C7CE /* UIView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA08CBAC20009F9E0062C7CE /* GXDevices.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB9020009F9D0062C7CE /* GXDevices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA08CBAD20009F9E0062C7CE /* UIDevice+Device.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB9120009F9D0062C7CE /* UIDevice+Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA08CBAE20009F9E0062C7CE /* GXDevices.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08CB9220009F9D0062C7CE /* GXDevices.m */; };
 		AA08CBAF20009F9E0062C7CE /* UIDevice+Device.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08CB9320009F9D0062C7CE /* UIDevice+Device.m */; };
-		AA08CBB020009F9E0062C7CE /* UIImageView+GXWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB9520009F9E0062C7CE /* UIImageView+GXWebImage.h */; };
-		AA08CBB120009F9E0062C7CE /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB9620009F9E0062C7CE /* UIImageView+WebCache.h */; };
+		AA08CBB020009F9E0062C7CE /* UIImageView+GXWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB9520009F9E0062C7CE /* UIImageView+GXWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA08CBB120009F9E0062C7CE /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB9620009F9E0062C7CE /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA08CBB220009F9E0062C7CE /* UIImageView+GXWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08CB9720009F9E0062C7CE /* UIImageView+GXWebImage.m */; };
 		AA08CBB320009F9E0062C7CE /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08CB9820009F9E0062C7CE /* UIImageView+WebCache.m */; };
 		B70FBCA61F99CD13004A52F7 /* GXBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B70FBCA41F99CD13004A52F7 /* GXBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -52,7 +52,7 @@
 		B7B684E31F41A9F600306EF5 /* GXBusValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B6849E1F41A9F600306EF5 /* GXBusValidator.m */; };
 		B7B684EC1F41A9F600306EF5 /* GXTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B684AB1F41A9F600306EF5 /* GXTheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7B684ED1F41A9F600306EF5 /* GXTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B684AC1F41A9F600306EF5 /* GXTheme.m */; };
-		B7B684EE1F41A9F600306EF5 /* GXThemeCongfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B684AD1F41A9F600306EF5 /* GXThemeCongfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B7B684EE1F41A9F600306EF5 /* GXThemeCongfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B684AD1F41A9F600306EF5 /* GXThemeCongfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7B684EF1F41A9F600306EF5 /* GXThemeCongfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B684AE1F41A9F600306EF5 /* GXThemeCongfig.m */; };
 		B7B684F01F41A9F600306EF5 /* GXThemeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B684AF1F41A9F600306EF5 /* GXThemeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7B684F11F41A9F600306EF5 /* GXBaseConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B684B11F41A9F600306EF5 /* GXBaseConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -61,11 +61,11 @@
 		B7B684F41F41A9F600306EF5 /* GXBasePreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B684B41F41A9F600306EF5 /* GXBasePreferences.m */; };
 		B7B684F51F41A9F600306EF5 /* GXReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B684B61F41A9F600306EF5 /* GXReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7B684F61F41A9F600306EF5 /* GXReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B684B71F41A9F600306EF5 /* GXReachability.m */; };
-		B7B684F71F41A9F600306EF5 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B684B81F41A9F600306EF5 /* Reachability.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B7B684F71F41A9F600306EF5 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B684B81F41A9F600306EF5 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7B684F81F41A9F600306EF5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B684B91F41A9F600306EF5 /* Reachability.m */; };
 		B7B684F91F41A9F600306EF5 /* GXRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B684BB1F41A9F600306EF5 /* GXRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7B684FA1F41A9F600306EF5 /* GXRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B684BC1F41A9F600306EF5 /* GXRouter.m */; };
-		B7B684FD1F41A9F600306EF5 /* HHRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B684BF1F41A9F600306EF5 /* HHRouter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B7B684FD1F41A9F600306EF5 /* HHRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B684BF1F41A9F600306EF5 /* HHRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7B684FE1F41A9F600306EF5 /* HHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B684C01F41A9F600306EF5 /* HHRouter.m */; };
 		B7B684FF1F41A9F600306EF5 /* GXBaseCollectionVC.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B684C31F41A9F600306EF5 /* GXBaseCollectionVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7B685001F41A9F600306EF5 /* GXBaseCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B684C41F41A9F600306EF5 /* GXBaseCollectionVC.m */; };
@@ -81,7 +81,7 @@
 		B7B6850A1F41A9F600306EF5 /* GXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B684CE1F41A9F600306EF5 /* GXBaseViewController.m */; };
 		B7B6850B1F41A9F600306EF5 /* GXBaseViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B684D01F41A9F600306EF5 /* GXBaseViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7B6850C1F41A9F600306EF5 /* GXBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B684D11F41A9F600306EF5 /* GXBaseViewModel.m */; };
-		E4772F581F42035300FC1312 /* NSString+RouterUrl.h in Headers */ = {isa = PBXBuildFile; fileRef = E4772F561F42035300FC1312 /* NSString+RouterUrl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E4772F581F42035300FC1312 /* NSString+RouterUrl.h in Headers */ = {isa = PBXBuildFile; fileRef = E4772F561F42035300FC1312 /* NSString+RouterUrl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4772F591F42035300FC1312 /* NSString+RouterUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = E4772F571F42035300FC1312 /* NSString+RouterUrl.m */; };
 /* End PBXBuildFile section */
 
@@ -503,43 +503,43 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA08CB9920009F9E0062C7CE /* NSURL+Utility.h in Headers */,
-				AA08CBB020009F9E0062C7CE /* UIImageView+GXWebImage.h in Headers */,
-				AA08CB9B20009F9E0062C7CE /* NSString+Encode.h in Headers */,
-				AA08CBAB20009F9E0062C7CE /* UIView+Frame.h in Headers */,
-				AA08CB9D20009F9E0062C7CE /* NSString+AppendParam.h in Headers */,
 				B7B685051F41A9F600306EF5 /* GXBaseTableVC.h in Headers */,
 				B7B684FF1F41A9F600306EF5 /* GXBaseCollectionVC.h in Headers */,
-				AA08CBA220009F9E0062C7CE /* UIImage+Tint.h in Headers */,
 				B7B684F01F41A9F600306EF5 /* GXThemeDelegate.h in Headers */,
 				B7B6850B1F41A9F600306EF5 /* GXBaseViewModel.h in Headers */,
 				B7B684E01F41A9F600306EF5 /* GXBusModel.h in Headers */,
 				B7B684F91F41A9F600306EF5 /* GXRouter.h in Headers */,
 				B7B685071F41A9F600306EF5 /* GXBaseTableViewCell.h in Headers */,
-				AA08CBB120009F9E0062C7CE /* UIImageView+WebCache.h in Headers */,
+				AA08CBA920009F9E0062C7CE /* GXColors.h in Headers */,
 				B70FBCA61F99CD13004A52F7 /* GXBaseModel.h in Headers */,
-				E4772F581F42035300FC1312 /* NSString+RouterUrl.h in Headers */,
 				B7B685031F41A9F600306EF5 /* GXBaseCollectionViewFlowLayout.h in Headers */,
 				B7B684F51F41A9F600306EF5 /* GXReachability.h in Headers */,
-				B7B684EE1F41A9F600306EF5 /* GXThemeCongfig.h in Headers */,
+				AA08CB9920009F9E0062C7CE /* NSURL+Utility.h in Headers */,
+				AA08CBB020009F9E0062C7CE /* UIImageView+GXWebImage.h in Headers */,
+				AA08CB9B20009F9E0062C7CE /* NSString+Encode.h in Headers */,
+				AA08CBAB20009F9E0062C7CE /* UIView+Frame.h in Headers */,
+				AA08CB9D20009F9E0062C7CE /* NSString+AppendParam.h in Headers */,
+				AA08CBA220009F9E0062C7CE /* UIImage+Tint.h in Headers */,
+				AA08CBB120009F9E0062C7CE /* UIImageView+WebCache.h in Headers */,
+				AA08CBA120009F9E0062C7CE /* UIImage+Corlor.h in Headers */,
+				AA08CBAC20009F9E0062C7CE /* GXDevices.h in Headers */,
+				AA08CBAD20009F9E0062C7CE /* UIDevice+Device.h in Headers */,
+				AA08CBA020009F9E0062C7CE /* NSDate+Formatter.h in Headers */,
+				AA08CBA820009F9E0062C7CE /* UIButton+EdgeInsets.h in Headers */,
+				AA08CBA320009F9E0062C7CE /* GXImageManager.h in Headers */,
 				B7B685091F41A9F600306EF5 /* GXBaseViewController.h in Headers */,
-				AA08CBA920009F9E0062C7CE /* GXColors.h in Headers */,
 				B7B684E21F41A9F600306EF5 /* GXBusValidator.h in Headers */,
 				B7B684F11F41A9F600306EF5 /* GXBaseConfig.h in Headers */,
 				B7B684F31F41A9F600306EF5 /* GXBasePreferences.h in Headers */,
-				AA08CBA120009F9E0062C7CE /* UIImage+Corlor.h in Headers */,
-				AA08CBAC20009F9E0062C7CE /* GXDevices.h in Headers */,
-				B7B684EC1F41A9F600306EF5 /* GXTheme.h in Headers */,
-				B7B685011F41A9F600306EF5 /* GXBaseCollectionViewCell.h in Headers */,
+				E4772F581F42035300FC1312 /* NSString+RouterUrl.h in Headers */,
+				B7B684EE1F41A9F600306EF5 /* GXThemeCongfig.h in Headers */,
 				B7B684FD1F41A9F600306EF5 /* HHRouter.h in Headers */,
 				B7B684F71F41A9F600306EF5 /* Reachability.h in Headers */,
+				B7B684EC1F41A9F600306EF5 /* GXTheme.h in Headers */,
+				B7B685011F41A9F600306EF5 /* GXBaseCollectionViewCell.h in Headers */,
 				B7B684DC1F41A9F600306EF5 /* GXBus.h in Headers */,
 				B7B684DE1F41A9F600306EF5 /* GXBusMagiSystem.h in Headers */,
-				AA08CBAD20009F9E0062C7CE /* UIDevice+Device.h in Headers */,
-				AA08CBA020009F9E0062C7CE /* NSDate+Formatter.h in Headers */,
 				B7B6847B1F41A98800306EF5 /* GXRuler.h in Headers */,
-				AA08CBA820009F9E0062C7CE /* UIButton+EdgeInsets.h in Headers */,
-				AA08CBA320009F9E0062C7CE /* GXImageManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
