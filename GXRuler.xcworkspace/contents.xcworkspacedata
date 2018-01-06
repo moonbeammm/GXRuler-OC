@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:GXRuler/GXRuler.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:GXRefresh/GXRefresh.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:GXPodContainer/GXPodContainer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:GXPlayer/GXPlayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:GXPayment/GXPayment.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:GXPageView/GXPageView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:GXNetwork/GXNetwork.xcodeproj">
+   </FileRef>
+</Workspace>

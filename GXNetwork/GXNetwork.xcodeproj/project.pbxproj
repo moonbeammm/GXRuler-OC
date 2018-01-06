@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B70FBD561F99EE93004A52F7 /* GXApiModelDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = B70FBD541F99EE93004A52F7 /* GXApiModelDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B70FBD571F99EE93004A52F7 /* GXApiModelDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = B70FBD551F99EE93004A52F7 /* GXApiModelDescription.m */; };
+		B70FBD801F99F840004A52F7 /* GXApiModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B70FBD7F1F99F83B004A52F7 /* GXApiModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B75081D51F9E21940054ED21 /* GXPodContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75081D01F9E21340054ED21 /* GXPodContainer.framework */; };
+		B76C67BB1F6286D3005DA703 /* GXApiOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = B76C67B91F6286D3005DA703 /* GXApiOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B76C67BC1F6286D3005DA703 /* GXApiOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = B76C67BA1F6286D3005DA703 /* GXApiOptions.m */; };
+		B76C68301F62A0C8005DA703 /* GXOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B76C682E1F62A0C8005DA703 /* GXOperation.h */; };
+		B76C68311F62A0C8005DA703 /* GXOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B76C682F1F62A0C8005DA703 /* GXOperation.m */; };
+		B76C68591F62A544005DA703 /* GXStringHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = B76C68571F62A544005DA703 /* GXStringHelper.h */; };
+		B76C685A1F62A544005DA703 /* GXStringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B76C68581F62A544005DA703 /* GXStringHelper.m */; };
+		B76C685D1F62AA79005DA703 /* GXOperationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = B76C685B1F62AA79005DA703 /* GXOperationQueue.h */; };
+		B76C685E1F62AA79005DA703 /* GXOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B76C685C1F62AA79005DA703 /* GXOperationQueue.m */; };
+		B7B685501F41BFA100306EF5 /* GXNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B685461F41BFA100306EF5 /* GXNetwork.framework */; };
+		B7B685551F41BFA100306EF5 /* GXNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B685541F41BFA100306EF5 /* GXNetworkTests.m */; };
+		B7B685571F41BFA100306EF5 /* GXNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B685491F41BFA100306EF5 /* GXNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7B685791F41C01900306EF5 /* GXNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B6856F1F41C01900306EF5 /* GXNetworkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7B6857A1F41C01900306EF5 /* GXNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B685701F41C01900306EF5 /* GXNetworkManager.m */; };
+		B7B6857B1F41C01900306EF5 /* SKVObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B685711F41C01900306EF5 /* SKVObject.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B7B6857C1F41C01900306EF5 /* SKVObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B685721F41C01900306EF5 /* SKVObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B75081CF1F9E21340054ED21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B75081CA1F9E21340054ED21 /* GXPodContainer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B77B4B261F5D2694009FBFF0;
+			remoteInfo = GXPodContainer;
+		};
+		B75081D11F9E21340054ED21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B75081CA1F9E21340054ED21 /* GXPodContainer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B77B4C441F5D5EB0009FBFF0;
+			remoteInfo = GXPodContainerTestShell;
+		};
+		B75081D31F9E218D0054ED21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B75081CA1F9E21340054ED21 /* GXPodContainer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B77B4B251F5D2694009FBFF0;
+			remoteInfo = GXPodContainer;
+		};
+		B7B685511F41BFA100306EF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7B6853D1F41BFA100306EF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7B685451F41BFA100306EF5;
+			remoteInfo = GXNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B70FBD541F99EE93004A52F7 /* GXApiModelDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXApiModelDescription.h; sourceTree = "<group>"; };
+		B70FBD551F99EE93004A52F7 /* GXApiModelDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXApiModelDescription.m; sourceTree = "<group>"; };
+		B70FBD7F1F99F83B004A52F7 /* GXApiModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXApiModelProtocol.h; sourceTree = "<group>"; };
+		B70FBD9C1F9A1427004A52F7 /* GXRuler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GXRuler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75081CA1F9E21340054ED21 /* GXPodContainer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXPodContainer.xcodeproj; path = ../GXPodContainer/GXPodContainer.xcodeproj; sourceTree = "<group>"; };
+		B76C67B91F6286D3005DA703 /* GXApiOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXApiOptions.h; sourceTree = "<group>"; };
+		B76C67BA1F6286D3005DA703 /* GXApiOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXApiOptions.m; sourceTree = "<group>"; };
+		B76C682E1F62A0C8005DA703 /* GXOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXOperation.h; sourceTree = "<group>"; };
+		B76C682F1F62A0C8005DA703 /* GXOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXOperation.m; sourceTree = "<group>"; };
+		B76C68571F62A544005DA703 /* GXStringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXStringHelper.h; sourceTree = "<group>"; };
+		B76C68581F62A544005DA703 /* GXStringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXStringHelper.m; sourceTree = "<group>"; };
+		B76C685B1F62AA79005DA703 /* GXOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXOperationQueue.h; sourceTree = "<group>"; };
+		B76C685C1F62AA79005DA703 /* GXOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXOperationQueue.m; sourceTree = "<group>"; };
+		B7B685461F41BFA100306EF5 /* GXNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GXNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B685491F41BFA100306EF5 /* GXNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXNetwork.h; sourceTree = "<group>"; };
+		B7B6854F1F41BFA100306EF5 /* GXNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GXNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B685541F41BFA100306EF5 /* GXNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXNetworkTests.m; sourceTree = "<group>"; };
+		B7B685561F41BFA100306EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7B6856F1F41C01900306EF5 /* GXNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXNetworkManager.h; sourceTree = "<group>"; };
+		B7B685701F41C01900306EF5 /* GXNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXNetworkManager.m; sourceTree = "<group>"; };
+		B7B685711F41C01900306EF5 /* SKVObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKVObject.h; sourceTree = "<group>"; };
+		B7B685721F41C01900306EF5 /* SKVObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKVObject.m; sourceTree = "<group>"; };
+		E4EADE5C1F644EE5001A2071 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7B685421F41BFA100306EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75081D51F9E21940054ED21 /* GXPodContainer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B6854C1F41BFA100306EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B685501F41BFA100306EF5 /* GXNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B70FBD711F99F0C7004A52F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B70FBD9C1F9A1427004A52F7 /* GXRuler.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B75081C81F9E211C0054ED21 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				B75081CA1F9E21340054ED21 /* GXPodContainer.xcodeproj */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		B75081CB1F9E21340054ED21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B75081D01F9E21340054ED21 /* GXPodContainer.framework */,
+				B75081D21F9E21340054ED21 /* GXPodContainerTestShell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7B6853C1F41BFA100306EF5 = {
+			isa = PBXGroup;
+			children = (
+				B75081C81F9E211C0054ED21 /* Framework */,
+				B7B685481F41BFA100306EF5 /* GXNetwork */,
+				B7B685531F41BFA100306EF5 /* GXNetworkTests */,
+				B7B685471F41BFA100306EF5 /* Products */,
+				B70FBD711F99F0C7004A52F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7B685471F41BFA100306EF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7B685461F41BFA100306EF5 /* GXNetwork.framework */,
+				B7B6854F1F41BFA100306EF5 /* GXNetworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7B685481F41BFA100306EF5 /* GXNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				B7B685491F41BFA100306EF5 /* GXNetwork.h */,
+				B7B6856F1F41C01900306EF5 /* GXNetworkManager.h */,
+				B7B685701F41C01900306EF5 /* GXNetworkManager.m */,
+				B76C682E1F62A0C8005DA703 /* GXOperation.h */,
+				B76C682F1F62A0C8005DA703 /* GXOperation.m */,
+				B76C685B1F62AA79005DA703 /* GXOperationQueue.h */,
+				B76C685C1F62AA79005DA703 /* GXOperationQueue.m */,
+				B70FBD7F1F99F83B004A52F7 /* GXApiModelProtocol.h */,
+				B76C67B91F6286D3005DA703 /* GXApiOptions.h */,
+				B76C67BA1F6286D3005DA703 /* GXApiOptions.m */,
+				B70FBD541F99EE93004A52F7 /* GXApiModelDescription.h */,
+				B70FBD551F99EE93004A52F7 /* GXApiModelDescription.m */,
+				B76C68571F62A544005DA703 /* GXStringHelper.h */,
+				B76C68581F62A544005DA703 /* GXStringHelper.m */,
+				B7B685711F41C01900306EF5 /* SKVObject.h */,
+				B7B685721F41C01900306EF5 /* SKVObject.m */,
+				E4EADE5C1F644EE5001A2071 /* Info.plist */,
+			);
+			path = GXNetwork;
+			sourceTree = "<group>";
+		};
+		B7B685531F41BFA100306EF5 /* GXNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7B685541F41BFA100306EF5 /* GXNetworkTests.m */,
+				B7B685561F41BFA100306EF5 /* Info.plist */,
+			);
+			path = GXNetworkTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B7B685431F41BFA100306EF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B6857B1F41C01900306EF5 /* SKVObject.h in Headers */,
+				B7B685791F41C01900306EF5 /* GXNetworkManager.h in Headers */,
+				B76C68301F62A0C8005DA703 /* GXOperation.h in Headers */,
+				B70FBD801F99F840004A52F7 /* GXApiModelProtocol.h in Headers */,
+				B76C67BB1F6286D3005DA703 /* GXApiOptions.h in Headers */,
+				B7B685571F41BFA100306EF5 /* GXNetwork.h in Headers */,
+				B76C685D1F62AA79005DA703 /* GXOperationQueue.h in Headers */,
+				B76C68591F62A544005DA703 /* GXStringHelper.h in Headers */,
+				B70FBD561F99EE93004A52F7 /* GXApiModelDescription.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B7B685451F41BFA100306EF5 /* GXNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B6855A1F41BFA100306EF5 /* Build configuration list for PBXNativeTarget "GXNetwork" */;
+			buildPhases = (
+				B7B685411F41BFA100306EF5 /* Sources */,
+				B7B685421F41BFA100306EF5 /* Frameworks */,
+				B7B685431F41BFA100306EF5 /* Headers */,
+				B7B685441F41BFA100306EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B75081D41F9E218D0054ED21 /* PBXTargetDependency */,
+			);
+			name = GXNetwork;
+			productName = GXNetwork;
+			productReference = B7B685461F41BFA100306EF5 /* GXNetwork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7B6854E1F41BFA100306EF5 /* GXNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B6855D1F41BFA100306EF5 /* Build configuration list for PBXNativeTarget "GXNetworkTests" */;
+			buildPhases = (
+				B7B6854B1F41BFA100306EF5 /* Sources */,
+				B7B6854C1F41BFA100306EF5 /* Frameworks */,
+				B7B6854D1F41BFA100306EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7B685521F41BFA100306EF5 /* PBXTargetDependency */,
+			);
+			name = GXNetworkTests;
+			productName = GXNetworkTests;
+			productReference = B7B6854F1F41BFA100306EF5 /* GXNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7B6853D1F41BFA100306EF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = sunguangxin;
+				TargetAttributes = {
+					B7B685451F41BFA100306EF5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VEE3B6HDQ5;
+						ProvisioningStyle = Automatic;
+					};
+					B7B6854E1F41BFA100306EF5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VEE3B6HDQ5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B7B685401F41BFA100306EF5 /* Build configuration list for PBXProject "GXNetwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7B6853C1F41BFA100306EF5;
+			productRefGroup = B7B685471F41BFA100306EF5 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B75081CB1F9E21340054ED21 /* Products */;
+					ProjectRef = B75081CA1F9E21340054ED21 /* GXPodContainer.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B7B685451F41BFA100306EF5 /* GXNetwork */,
+				B7B6854E1F41BFA100306EF5 /* GXNetworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B75081D01F9E21340054ED21 /* GXPodContainer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GXPodContainer.framework;
+			remoteRef = B75081CF1F9E21340054ED21 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B75081D21F9E21340054ED21 /* GXPodContainerTestShell.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = GXPodContainerTestShell.app;
+			remoteRef = B75081D11F9E21340054ED21 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7B685441F41BFA100306EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B6854D1F41BFA100306EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7B685411F41BFA100306EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76C67BC1F6286D3005DA703 /* GXApiOptions.m in Sources */,
+				B76C68311F62A0C8005DA703 /* GXOperation.m in Sources */,
+				B7B6857A1F41C01900306EF5 /* GXNetworkManager.m in Sources */,
+				B76C685A1F62A544005DA703 /* GXStringHelper.m in Sources */,
+				B7B6857C1F41C01900306EF5 /* SKVObject.m in Sources */,
+				B70FBD571F99EE93004A52F7 /* GXApiModelDescription.m in Sources */,
+				B76C685E1F62AA79005DA703 /* GXOperationQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B6854B1F41BFA100306EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B685551F41BFA100306EF5 /* GXNetworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B75081D41F9E218D0054ED21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GXPodContainer;
+			targetProxy = B75081D31F9E218D0054ED21 /* PBXContainerItemProxy */;
+		};
+		B7B685521F41BFA100306EF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7B685451F41BFA100306EF5 /* GXNetwork */;
+			targetProxy = B7B685511F41BFA100306EF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B7B685581F41BFA100306EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7B685591F41BFA100306EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7B6855B1F41BFA100306EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VEE3B6HDQ5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GXNetwork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sgx.GXNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B7B6855C1F41BFA100306EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VEE3B6HDQ5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GXNetwork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sgx.GXNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B7B6855E1F41BFA100306EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VEE3B6HDQ5;
+				INFOPLIST_FILE = GXNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sgx.GXNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7B6855F1F41BFA100306EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VEE3B6HDQ5;
+				INFOPLIST_FILE = GXNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sgx.GXNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7B685401F41BFA100306EF5 /* Build configuration list for PBXProject "GXNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B685581F41BFA100306EF5 /* Debug */,
+				B7B685591F41BFA100306EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B6855A1F41BFA100306EF5 /* Build configuration list for PBXNativeTarget "GXNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B6855B1F41BFA100306EF5 /* Debug */,
+				B7B6855C1F41BFA100306EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B6855D1F41BFA100306EF5 /* Build configuration list for PBXNativeTarget "GXNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B6855E1F41BFA100306EF5 /* Debug */,
+				B7B6855F1F41BFA100306EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7B6853D1F41BFA100306EF5 /* Project object */;
+}

@@ -1,0 +1,16 @@
+platform :ios, '8.0'
+
+target 'GXPodLinker' do
+     pod 'ReactiveCocoa', '~> 2.5'
+     pod 'AFNetworking'
+     pod 'Masonry'
+     pod 'FMDB'
+     pod 'DCIntrospect-ARC'
+     pod 'YYModel'
+     pod 'YYText'
+     pod 'YYImage'
+     #pod 'YYFPSLabel'
+     pod 'YYWebImage'
+     pod 'YYCache'
+end
+

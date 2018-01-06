@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B77B4B461F5D28C9009FBFF0 /* GXPodLinkerShell */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B77B4B491F5D28C9009FBFF0 /* Build configuration list for PBXAggregateTarget "GXPodLinkerShell" */;
+			buildPhases = (
+				B77B4B4A1F5D28D1009FBFF0 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = GXPodLinkerShell;
+			productName = GXPodLinkerShell;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5CE62DDE2C1638CC2254A22F /* libPods-GXPodLinker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D939BF688F402A36E233E816 /* libPods-GXPodLinker.a */; };
+		B70FBD0B1F99E67C004A52F7 /* libYYCache.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B70FBD0C1F99E67C004A52F7 /* libYYCache.a */; };
+		B70FBD0D1F99E67F004A52F7 /* libYYWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B70FBD0E1F99E67F004A52F7 /* libYYWebImage.a */; };
+		B74C97761F5E983D00390F41 /* libYYFPSLabel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B74C97461F5E8F7000390F41 /* libYYFPSLabel.a */; };
+		B77B4B3F1F5D26CD009FBFF0 /* GXPodLinker.m in Sources */ = {isa = PBXBuildFile; fileRef = B77B4B3E1F5D26CD009FBFF0 /* GXPodLinker.m */; };
+		B77B4B401F5D26CD009FBFF0 /* GXPodLinker.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B77B4B3D1F5D26CD009FBFF0 /* GXPodLinker.h */; };
+		B77B4B531F5D2A89009FBFF0 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B77B4B4B1F5D2A89009FBFF0 /* libAFNetworking.a */; };
+		B77B4B541F5D2A89009FBFF0 /* libDCIntrospect-ARC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B77B4B4C1F5D2A89009FBFF0 /* libDCIntrospect-ARC.a */; };
+		B77B4B551F5D2A89009FBFF0 /* libFMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B77B4B4D1F5D2A89009FBFF0 /* libFMDB.a */; };
+		B77B4B561F5D2A89009FBFF0 /* libMasonry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B77B4B4E1F5D2A89009FBFF0 /* libMasonry.a */; };
+		B77B4B571F5D2A89009FBFF0 /* libReactiveCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B77B4B4F1F5D2A89009FBFF0 /* libReactiveCocoa.a */; };
+		B77B4B581F5D2A89009FBFF0 /* libYYImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B77B4B501F5D2A89009FBFF0 /* libYYImage.a */; };
+		B77B4B591F5D2A89009FBFF0 /* libYYModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B77B4B511F5D2A89009FBFF0 /* libYYModel.a */; };
+		B77B4B5A1F5D2A89009FBFF0 /* libYYText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B77B4B521F5D2A89009FBFF0 /* libYYText.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B77B4B381F5D26CD009FBFF0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				B77B4B401F5D26CD009FBFF0 /* GXPodLinker.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2DC53C623D6F1A6D0D4608C5 /* Pods-GXPodLinker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GXPodLinker.release.xcconfig"; path = "Pods/Target Support Files/Pods-GXPodLinker/Pods-GXPodLinker.release.xcconfig"; sourceTree = "<group>"; };
+		B70FBD0C1F99E67C004A52F7 /* libYYCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libYYCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70FBD0E1F99E67F004A52F7 /* libYYWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libYYWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74C97461F5E8F7000390F41 /* libYYFPSLabel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libYYFPSLabel.a; path = "../../../../../Library/Developer/Xcode/DerivedData/GXPodLinker-hjqlientfzzydjbyvqvvcwvufzgf/Build/Products/Debug-iphonesimulator/YYFPSLabel/libYYFPSLabel.a"; sourceTree = "<group>"; };
+		B74C974F1F5E915800390F41 /* libRRFPSBar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRRFPSBar.a; path = "Pods/../build/Debug-iphoneos/RRFPSBar/libRRFPSBar.a"; sourceTree = "<group>"; };
+		B74C97741F5E964800390F41 /* libJPFPSStatus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libJPFPSStatus.a; path = "Pods/../build/Debug-iphoneos/JPFPSStatus/libJPFPSStatus.a"; sourceTree = "<group>"; };
+		B77B4B3A1F5D26CD009FBFF0 /* libGXPodLinker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGXPodLinker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77B4B3D1F5D26CD009FBFF0 /* GXPodLinker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXPodLinker.h; sourceTree = "<group>"; };
+		B77B4B3E1F5D26CD009FBFF0 /* GXPodLinker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXPodLinker.m; sourceTree = "<group>"; };
+		B77B4B4B1F5D2A89009FBFF0 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
+		B77B4B4C1F5D2A89009FBFF0 /* libDCIntrospect-ARC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libDCIntrospect-ARC.a"; path = "Pods/../build/Debug-iphoneos/DCIntrospect-ARC/libDCIntrospect-ARC.a"; sourceTree = "<group>"; };
+		B77B4B4D1F5D2A89009FBFF0 /* libFMDB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFMDB.a; path = "Pods/../build/Debug-iphoneos/FMDB/libFMDB.a"; sourceTree = "<group>"; };
+		B77B4B4E1F5D2A89009FBFF0 /* libMasonry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMasonry.a; path = "Pods/../build/Debug-iphoneos/Masonry/libMasonry.a"; sourceTree = "<group>"; };
+		B77B4B4F1F5D2A89009FBFF0 /* libReactiveCocoa.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReactiveCocoa.a; path = "Pods/../build/Debug-iphoneos/ReactiveCocoa/libReactiveCocoa.a"; sourceTree = "<group>"; };
+		B77B4B501F5D2A89009FBFF0 /* libYYImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libYYImage.a; path = "Pods/../build/Debug-iphoneos/YYImage/libYYImage.a"; sourceTree = "<group>"; };
+		B77B4B511F5D2A89009FBFF0 /* libYYModel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libYYModel.a; path = "Pods/../build/Debug-iphoneos/YYModel/libYYModel.a"; sourceTree = "<group>"; };
+		B77B4B521F5D2A89009FBFF0 /* libYYText.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libYYText.a; path = "Pods/../build/Debug-iphoneos/YYText/libYYText.a"; sourceTree = "<group>"; };
+		D939BF688F402A36E233E816 /* libPods-GXPodLinker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GXPodLinker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC02B588C9CF36552DC9203 /* Pods-GXPodLinker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GXPodLinker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GXPodLinker/Pods-GXPodLinker.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B77B4B371F5D26CD009FBFF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B70FBD0D1F99E67F004A52F7 /* libYYWebImage.a in Frameworks */,
+				B70FBD0B1F99E67C004A52F7 /* libYYCache.a in Frameworks */,
+				B74C97761F5E983D00390F41 /* libYYFPSLabel.a in Frameworks */,
+				B77B4B531F5D2A89009FBFF0 /* libAFNetworking.a in Frameworks */,
+				B77B4B541F5D2A89009FBFF0 /* libDCIntrospect-ARC.a in Frameworks */,
+				B77B4B551F5D2A89009FBFF0 /* libFMDB.a in Frameworks */,
+				B77B4B561F5D2A89009FBFF0 /* libMasonry.a in Frameworks */,
+				B77B4B571F5D2A89009FBFF0 /* libReactiveCocoa.a in Frameworks */,
+				B77B4B581F5D2A89009FBFF0 /* libYYImage.a in Frameworks */,
+				B77B4B591F5D2A89009FBFF0 /* libYYModel.a in Frameworks */,
+				B77B4B5A1F5D2A89009FBFF0 /* libYYText.a in Frameworks */,
+				5CE62DDE2C1638CC2254A22F /* libPods-GXPodLinker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		491E16E4BCEB82DF1E0F33D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B70FBD0E1F99E67F004A52F7 /* libYYWebImage.a */,
+				B70FBD0C1F99E67C004A52F7 /* libYYCache.a */,
+				B74C97741F5E964800390F41 /* libJPFPSStatus.a */,
+				B74C974F1F5E915800390F41 /* libRRFPSBar.a */,
+				B74C97461F5E8F7000390F41 /* libYYFPSLabel.a */,
+				B77B4B4B1F5D2A89009FBFF0 /* libAFNetworking.a */,
+				B77B4B4C1F5D2A89009FBFF0 /* libDCIntrospect-ARC.a */,
+				B77B4B4D1F5D2A89009FBFF0 /* libFMDB.a */,
+				B77B4B4E1F5D2A89009FBFF0 /* libMasonry.a */,
+				B77B4B4F1F5D2A89009FBFF0 /* libReactiveCocoa.a */,
+				B77B4B501F5D2A89009FBFF0 /* libYYImage.a */,
+				B77B4B511F5D2A89009FBFF0 /* libYYModel.a */,
+				B77B4B521F5D2A89009FBFF0 /* libYYText.a */,
+				D939BF688F402A36E233E816 /* libPods-GXPodLinker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD0F70B6985D91585E6C4AC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAC02B588C9CF36552DC9203 /* Pods-GXPodLinker.debug.xcconfig */,
+				2DC53C623D6F1A6D0D4608C5 /* Pods-GXPodLinker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B77B4B311F5D26CD009FBFF0 = {
+			isa = PBXGroup;
+			children = (
+				B77B4B3C1F5D26CD009FBFF0 /* GXPodLinker */,
+				B77B4B3B1F5D26CD009FBFF0 /* Products */,
+				AD0F70B6985D91585E6C4AC9 /* Pods */,
+				491E16E4BCEB82DF1E0F33D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B77B4B3B1F5D26CD009FBFF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B77B4B3A1F5D26CD009FBFF0 /* libGXPodLinker.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B77B4B3C1F5D26CD009FBFF0 /* GXPodLinker */ = {
+			isa = PBXGroup;
+			children = (
+				B77B4B3D1F5D26CD009FBFF0 /* GXPodLinker.h */,
+				B77B4B3E1F5D26CD009FBFF0 /* GXPodLinker.m */,
+			);
+			path = GXPodLinker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B77B4B391F5D26CD009FBFF0 /* GXPodLinker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B77B4B431F5D26CD009FBFF0 /* Build configuration list for PBXNativeTarget "GXPodLinker" */;
+			buildPhases = (
+				22EB9048D8B4EBDF0784099F /* [CP] Check Pods Manifest.lock */,
+				B77B4B361F5D26CD009FBFF0 /* Sources */,
+				B77B4B371F5D26CD009FBFF0 /* Frameworks */,
+				B77B4B381F5D26CD009FBFF0 /* CopyFiles */,
+				F221BBAB77578101B1C4DEE6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GXPodLinker;
+			productName = GXPodLinker;
+			productReference = B77B4B3A1F5D26CD009FBFF0 /* libGXPodLinker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B77B4B321F5D26CD009FBFF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sunguangxin;
+				TargetAttributes = {
+					B77B4B391F5D26CD009FBFF0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VEE3B6HDQ5;
+						ProvisioningStyle = Automatic;
+					};
+					B77B4B461F5D28C9009FBFF0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VEE3B6HDQ5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B77B4B351F5D26CD009FBFF0 /* Build configuration list for PBXProject "GXPodLinker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B77B4B311F5D26CD009FBFF0;
+			productRefGroup = B77B4B3B1F5D26CD009FBFF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B77B4B391F5D26CD009FBFF0 /* GXPodLinker */,
+				B77B4B461F5D28C9009FBFF0 /* GXPodLinkerShell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22EB9048D8B4EBDF0784099F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GXPodLinker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B77B4B4A1F5D28D1009FBFF0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh compile.sh";
+		};
+		F221BBAB77578101B1C4DEE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GXPodLinker/Pods-GXPodLinker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B77B4B361F5D26CD009FBFF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77B4B3F1F5D26CD009FBFF0 /* GXPodLinker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B77B4B411F5D26CD009FBFF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B77B4B421F5D26CD009FBFF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B77B4B441F5D26CD009FBFF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAC02B588C9CF36552DC9203 /* Pods-GXPodLinker.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VEE3B6HDQ5;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/DCIntrospect-ARC",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/FMDB",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Masonry",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/ReactiveCocoa",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/YYImage",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/YYModel",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/YYText",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RRFPSBar",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/JPFPSStatus",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B77B4B451F5D26CD009FBFF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC53C623D6F1A6D0D4608C5 /* Pods-GXPodLinker.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VEE3B6HDQ5;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/DCIntrospect-ARC",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/FMDB",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Masonry",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/ReactiveCocoa",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/YYImage",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/YYModel",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/YYText",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RRFPSBar",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/JPFPSStatus",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B77B4B471F5D28C9009FBFF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VEE3B6HDQ5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B77B4B481F5D28C9009FBFF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VEE3B6HDQ5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B77B4B351F5D26CD009FBFF0 /* Build configuration list for PBXProject "GXPodLinker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77B4B411F5D26CD009FBFF0 /* Debug */,
+				B77B4B421F5D26CD009FBFF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B77B4B431F5D26CD009FBFF0 /* Build configuration list for PBXNativeTarget "GXPodLinker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77B4B441F5D26CD009FBFF0 /* Debug */,
+				B77B4B451F5D26CD009FBFF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B77B4B491F5D28C9009FBFF0 /* Build configuration list for PBXAggregateTarget "GXPodLinkerShell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77B4B471F5D28C9009FBFF0 /* Debug */,
+				B77B4B481F5D28C9009FBFF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B77B4B321F5D26CD009FBFF0 /* Project object */;
+}
