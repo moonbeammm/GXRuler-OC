@@ -25,7 +25,6 @@
 		AA08CBA620009F9E0062C7CE /* GXImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08CB8620009F9D0062C7CE /* GXImageManager.m */; };
 		AA08CBA720009F9E0062C7CE /* UIButton+EdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08CB8820009F9D0062C7CE /* UIButton+EdgeInsets.m */; };
 		AA08CBA820009F9E0062C7CE /* UIButton+EdgeInsets.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB8920009F9D0062C7CE /* UIButton+EdgeInsets.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA08CBA920009F9E0062C7CE /* GXColors.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB8B20009F9D0062C7CE /* GXColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA08CBAA20009F9E0062C7CE /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08CB8D20009F9D0062C7CE /* UIView+Frame.m */; };
 		AA08CBAB20009F9E0062C7CE /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB8E20009F9D0062C7CE /* UIView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA08CBAC20009F9E0062C7CE /* GXDevices.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB9020009F9D0062C7CE /* GXDevices.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +35,7 @@
 		AA08CBB120009F9E0062C7CE /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08CB9620009F9E0062C7CE /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA08CBB220009F9E0062C7CE /* UIImageView+GXWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08CB9720009F9E0062C7CE /* UIImageView+GXWebImage.m */; };
 		AA08CBB320009F9E0062C7CE /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08CB9820009F9E0062C7CE /* UIImageView+WebCache.m */; };
+		AA7483DE2001F1AE002EDBC9 /* GXRulerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7483DD2001F1A4002EDBC9 /* GXRulerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B70FBCA61F99CD13004A52F7 /* GXBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B70FBCA41F99CD13004A52F7 /* GXBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B70FBCA71F99CD13004A52F7 /* GXBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B70FBCA51F99CD13004A52F7 /* GXBaseModel.m */; };
 		B70FBD061F99E36C004A52F7 /* GXPodContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B70FBD021F99E34C004A52F7 /* GXPodContainer.framework */; };
@@ -128,7 +128,6 @@
 		AA08CB8620009F9D0062C7CE /* GXImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXImageManager.m; sourceTree = "<group>"; };
 		AA08CB8820009F9D0062C7CE /* UIButton+EdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EdgeInsets.m"; sourceTree = "<group>"; };
 		AA08CB8920009F9D0062C7CE /* UIButton+EdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EdgeInsets.h"; sourceTree = "<group>"; };
-		AA08CB8B20009F9D0062C7CE /* GXColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXColors.h; sourceTree = "<group>"; };
 		AA08CB8D20009F9D0062C7CE /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		AA08CB8E20009F9D0062C7CE /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		AA08CB9020009F9D0062C7CE /* GXDevices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXDevices.h; sourceTree = "<group>"; };
@@ -139,6 +138,7 @@
 		AA08CB9620009F9E0062C7CE /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
 		AA08CB9720009F9E0062C7CE /* UIImageView+GXWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GXWebImage.m"; sourceTree = "<group>"; };
 		AA08CB9820009F9E0062C7CE /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		AA7483DD2001F1A4002EDBC9 /* GXRulerConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXRulerConfig.h; sourceTree = "<group>"; };
 		B70FBCA41F99CD13004A52F7 /* GXBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXBaseModel.h; sourceTree = "<group>"; };
 		B70FBCA51F99CD13004A52F7 /* GXBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXBaseModel.m; sourceTree = "<group>"; };
 		B70FBCFC1F99E34C004A52F7 /* GXPodContainer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GXPodContainer.xcodeproj; path = ../GXPodContainer/GXPodContainer.xcodeproj; sourceTree = "<group>"; };
@@ -264,7 +264,6 @@
 			children = (
 				AA08CB8020009F9D0062C7CE /* UIImage */,
 				AA08CB8720009F9D0062C7CE /* UIButton */,
-				AA08CB8A20009F9D0062C7CE /* UIColor */,
 				AA08CB8C20009F9D0062C7CE /* UIView */,
 				AA08CB8F20009F9D0062C7CE /* UIDevice */,
 				AA08CB9420009F9E0062C7CE /* UIImageView */,
@@ -276,10 +275,10 @@
 			isa = PBXGroup;
 			children = (
 				AA08CB8120009F9D0062C7CE /* UIImage+Corlor.h */,
-				AA08CB8220009F9D0062C7CE /* UIImage+Tint.h */,
-				AA08CB8320009F9D0062C7CE /* GXImageManager.h */,
-				AA08CB8420009F9D0062C7CE /* UIImage+Tint.m */,
 				AA08CB8520009F9D0062C7CE /* UIImage+Corlor.m */,
+				AA08CB8220009F9D0062C7CE /* UIImage+Tint.h */,
+				AA08CB8420009F9D0062C7CE /* UIImage+Tint.m */,
+				AA08CB8320009F9D0062C7CE /* GXImageManager.h */,
 				AA08CB8620009F9D0062C7CE /* GXImageManager.m */,
 			);
 			path = UIImage;
@@ -292,14 +291,6 @@
 				AA08CB8920009F9D0062C7CE /* UIButton+EdgeInsets.h */,
 			);
 			path = UIButton;
-			sourceTree = "<group>";
-		};
-		AA08CB8A20009F9D0062C7CE /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
-				AA08CB8B20009F9D0062C7CE /* GXColors.h */,
-			);
-			path = UIColor;
 			sourceTree = "<group>";
 		};
 		AA08CB8C20009F9D0062C7CE /* UIView */ = {
@@ -380,6 +371,7 @@
 			isa = PBXGroup;
 			children = (
 				B7B6846D1F41A98700306EF5 /* GXRuler.h */,
+				AA7483DD2001F1A4002EDBC9 /* GXRulerConfig.h */,
 				B7B684C11F41A9F600306EF5 /* GXRuler */,
 				AA08CB7F20009F9D0062C7CE /* GXKit */,
 				AA08CB7320009F9D0062C7CE /* GXFoundation */,
@@ -510,7 +502,6 @@
 				B7B684E01F41A9F600306EF5 /* GXBusModel.h in Headers */,
 				B7B684F91F41A9F600306EF5 /* GXRouter.h in Headers */,
 				B7B685071F41A9F600306EF5 /* GXBaseTableViewCell.h in Headers */,
-				AA08CBA920009F9E0062C7CE /* GXColors.h in Headers */,
 				B70FBCA61F99CD13004A52F7 /* GXBaseModel.h in Headers */,
 				B7B685031F41A9F600306EF5 /* GXBaseCollectionViewFlowLayout.h in Headers */,
 				B7B684F51F41A9F600306EF5 /* GXReachability.h in Headers */,
@@ -537,6 +528,7 @@
 				B7B684F71F41A9F600306EF5 /* Reachability.h in Headers */,
 				B7B684EC1F41A9F600306EF5 /* GXTheme.h in Headers */,
 				B7B685011F41A9F600306EF5 /* GXBaseCollectionViewCell.h in Headers */,
+				AA7483DE2001F1AE002EDBC9 /* GXRulerConfig.h in Headers */,
 				B7B684DC1F41A9F600306EF5 /* GXBus.h in Headers */,
 				B7B684DE1F41A9F600306EF5 /* GXBusMagiSystem.h in Headers */,
 				B7B6847B1F41A98800306EF5 /* GXRuler.h in Headers */,

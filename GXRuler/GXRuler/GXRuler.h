@@ -16,6 +16,10 @@ FOUNDATION_EXPORT const unsigned char GXRulerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <GXRuler/PublicHeader.h>
 
+// config
+
+#import <GXRuler/GXRulerConfig.h>
+
 // 图片相关
 #import <GXRuler/GXImageManager.h>
 #import <GXRuler/UIImage+Tint.h>
@@ -45,9 +49,6 @@ FOUNDATION_EXPORT const unsigned char GXRulerVersionString[];
 
 // 网络状态
 #import <GXRuler/GXReachability.h>
-
-// 颜色&尺寸相关
-#import <GXRuler/GXColors.h>
 
 // 设备相关
 #import <GXRuler/GXDevices.h>
