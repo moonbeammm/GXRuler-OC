@@ -12,6 +12,30 @@
 
 @implementation UIImageView (GXWebImage)
 
+- (void)gx_setImageWithURL:(NSString *)url {
+    [self gx_setImageWithURL:url ptSize:CGSizeZero];
+}
+
+- (void)gx_setImageWithURL:(NSString *)url completed:(GXWebImageCompletionBlock)completedBlock {
+    [self gx_setImageWithURL:url ptSize:CGSizeZero placeholderImage:nil options:0 progress:nil completed:completedBlock];
+}
+
+- (void)gx_setImageWithURL:(NSString *)url ptSize:(CGSize)size {
+    [self gx_setImageWithURL:url ptSize:size placeholderImage:nil];
+}
+
+- (void)gx_setImageWithURL:(NSString *)url ptSize:(CGSize)size placeholderImage:(UIImage *)placeholder {
+    [self gx_setImageWithURL:url ptSize:size placeholderImage:placeholder options:0 progress:nil completed:nil];
+}
+
+- (void)gx_setImageWithURL:(NSString *)url placeholderImage:(UIImage *)placeholder completed:(GXWebImageCompletionBlock)completedBlock {
+    [self gx_setImageWithURL:url ptSize:CGSizeZero placeholderImage:placeholder options:0 progress:nil completed:completedBlock];
+}
+
+- (void)gx_setImageWithURL:(NSString *)url ptSize:(CGSize)size placeholderImage:(UIImage *)placeholder options:(GXWebImageOptions)options  completed:(GXWebImageCompletionBlock)completedBlock {
+    [self gx_setImageWithURL:url ptSize:size placeholderImage:placeholder options:options progress:nil completed:completedBlock];
+}
+
 - (void)gx_setImageWithURL:(NSString *)url ptSize:(CGSize)size placeholderImage:(UIImage *)placeholder options:(GXWebImageOptions)options progress:(GXWebImageProgressBlock)progressBlock completed:(GXWebImageCompletionBlock)completedBlock
 {
     __weak typeof (self) weakSelf = self;
@@ -27,7 +51,6 @@
             completedBlock(image,error,cacheType,url);
         }
     }];
-    
 }
 
 + (void)gx_downloadImageWithURL:(NSString *)url ptSize:(CGSize)size options:(GXWebImageOptions)options progress:(GXWebImageProgressBlock)progressBlock completed:(GXWebImageDownloadCompletedBlock)completedBlock

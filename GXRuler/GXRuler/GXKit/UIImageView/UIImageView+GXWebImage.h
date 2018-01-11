@@ -74,6 +74,18 @@ typedef void(^GXWebImageDownloadCompletedBlock)(UIImage * _Nullable image,
 
 @interface UIImageView (GXWebImage)
 
+- (void)gx_setImageWithURL:(NSString *_Nullable)url;
+- (void)gx_setImageWithURL:(NSString *_Nullable)url ptSize:(CGSize)size;
+- (void)gx_setImageWithURL:(NSString *_Nullable)url completed:(GXWebImageCompletionBlock _Nonnull )completedBlock;
+- (void)gx_setImageWithURL:(NSString *_Nullable)url ptSize:(CGSize)size placeholderImage:(UIImage *_Nullable)placeholder;
+- (void)gx_setImageWithURL:(NSString *_Nullable)url
+          placeholderImage:(UIImage *_Nullable)placeholder
+                 completed:(GXWebImageCompletionBlock _Nullable )completedBlock;
+- (void)gx_setImageWithURL:(NSString *_Nullable)url
+                    ptSize:(CGSize)size
+          placeholderImage:(UIImage *_Nullable)placeholder
+                   options:(GXWebImageOptions)options
+                 completed:(GXWebImageCompletionBlock _Nullable )completedBlock;
 - (void)gx_setImageWithURL:(NSString *_Nullable)url 
                     ptSize:(CGSize)size 
           placeholderImage:(nullable UIImage *)placeholder
