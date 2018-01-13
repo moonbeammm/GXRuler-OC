@@ -15,12 +15,11 @@
 @end
 
 @interface GXOperation : NSOperation
-@property (nonatomic, strong, nonnull) NSURLRequest *request;
+@property (nonatomic, strong) NSURLRequest *request;
 @property (nonatomic, weak) id<GXOperationProtocol> delegate;
 
-
-@property (nonatomic, strong, nonnull) BOOL (^beforeRequestCallback)(void);
-@property (nonatomic, strong, nonnull) void (^afterRequestCallback)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable);
+@property (nonatomic, strong) BOOL (^beforeRequestCallback)(void);
+@property (nonatomic, strong) void (^afterRequestCallback)(NSData *, NSURLResponse *, NSError *);
 
 - (void)execute:(BOOL)immediately;
 

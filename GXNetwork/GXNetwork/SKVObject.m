@@ -209,6 +209,9 @@
         NSUInteger count = [self count];
         
         for (NSUInteger i = 0; i < count; i ++) {
+            if (!self[i]) {
+                return nil;
+            }
             result = [result stringByAppendingString:[self[i] description]];
             if (i != count - 1)
                 result = [result stringByAppendingString:@","];

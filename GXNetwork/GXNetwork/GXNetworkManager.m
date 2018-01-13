@@ -228,9 +228,8 @@
 
 #pragma mark - 解析字典为model
 
-- (nullable NSDictionary *)_ormResponse:(SKVObject * _Nullable)obj error:(NSError ** _Nonnull)errorPtr
+- (nullable NSDictionary *)_ormResponse:(SKVObject * _Nullable)obj error:(NSError *__autoreleasing* _Nullable)errorPtr
 {
-    *errorPtr = nil;
     if (!obj || !self.options.modelDescriptions.count) return nil;
     NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithCapacity:self.options.modelDescriptions.count];
     for (GXApiModelDescription *description in self.options.modelDescriptions) {
@@ -246,9 +245,8 @@
     return [dict copy];;
 }
 
-- (nullable id)_ormMapping:(SKVObject * _Nullable)response model:(GXApiModelDescription * _Nonnull)model errorPtr:(NSError ** _Nonnull)errorPtr
+- (nullable id)_ormMapping:(SKVObject * _Nullable)response model:(GXApiModelDescription * _Nonnull)model errorPtr:(NSError *__autoreleasing* _Nullable)errorPtr
 {
-    *errorPtr = nil;
     NSMutableArray *responseArray = [NSMutableArray arrayWithCapacity:8];
     if (model.isArray) {
          
@@ -259,9 +257,9 @@
             x1 = [response arrayValue];
         }
         if (!x1) {
-            if (!model.isOptional) {
-                *errorPtr = nil;
-            }
+//            if (!model.isOptional) {
+//                *errorPtr = nil;
+//            }
             return nil;
         }
         for (id obj in x1) {

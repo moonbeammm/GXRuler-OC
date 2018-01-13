@@ -389,40 +389,40 @@ static void _objectSetter(GXBasePreferences *self, SEL _cmd, id object) {
                     case 'B':
                     case 'c':
                     {
-                        getterImp = (IMP)_boolGetter;
-                        setterImp = (IMP)_boolSetter;
+//                        getterImp = (IMP)_boolGetter;
+//                        setterImp = (IMP)_boolSetter;
                         BOOL x = [defaultObj boolValue];
                         _boolSetter(self, setterSel, x);
                         break;
                     }
                     case 'i':
                     {
-                        getterImp = (IMP)_integerGetter;
-                        setterImp = (IMP)_integerSetter;
+//                        getterImp = (IMP)_integerGetter;
+//                        setterImp = (IMP)_integerSetter;
                         int x = [defaultObj intValue];
                         _integerSetter(self, setterSel, x);
                         break;
                     }
                     case 'f':
                     {
-                        getterImp = (IMP)_floatGetter;
-                        setterImp = (IMP)_floatSetter;
+//                        getterImp = (IMP)_floatGetter;
+//                        setterImp = (IMP)_floatSetter;
                         float x = [defaultObj floatValue];
                         _floatSetter(self, setterSel, x);
                         break;
                     }
                     case 'd':
                     {
-                        getterImp = (IMP)_doubleGetter;
-                        setterImp = (IMP)_doubleSetter;
+//                        getterImp = (IMP)_doubleGetter;
+//                        setterImp = (IMP)_doubleSetter;
                         double x = [defaultObj doubleValue];
                         _doubleSetter(self, setterSel, x);
                         break;
                     }
                     case '@':
                     {
-                        getterImp = (IMP)_objectGetter;
-                        setterImp = (IMP)_objectSetter;
+//                        getterImp = (IMP)_objectGetter;
+//                        setterImp = (IMP)_objectSetter;
                         _objectSetter(self, setterSel, defaultObj);
                         break;
                     }
