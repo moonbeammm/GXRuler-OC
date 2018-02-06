@@ -66,6 +66,9 @@ FOUNDATION_EXPORT const unsigned char GXRulerVersionString[];
 #import <GXRuler/GXBaseViewModel.h>
 #import <GXRuler/GXBaseModel.h>
 
+// 功能
+#import <GXRuler/ZipArchive.h>
+
 
 
 

@@ -42,6 +42,8 @@
  */
 - (void)cleanCache;
 
+@property (atomic, copy, nullable) NSData * _Nullable (^preProcessRawData)(NSData * _Nullable);
+
 /**
  1.设置请求参数.
  2.设置请求完成的回调.

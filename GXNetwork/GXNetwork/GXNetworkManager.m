@@ -376,6 +376,11 @@
     if (!data) {
         return nil;
     }
+    
+    if (self.preProcessRawData) {
+        data = self.preProcessRawData(data);
+    }
+    
     id x = [NSJSONSerialization JSONObjectWithData:data options:0 error:errorPtr];
     if (*errorPtr) {
         *errorPtr = nil;

@@ -13,6 +13,11 @@
 
 #define kLibraryDirectory(fileName) [[NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES) firstObject] stringByAppendingPathComponent:(fileName)]
 
+/// size
+
+#define GXScreenMinWidth MIN([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)
+#define GXScreenMaxWidth MAX([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)
+
 /// color
 
 #define GX_PINK_COLOR [UIColor colorWithRed:251./255 green:114./255 blue:153./255 alpha:1]
