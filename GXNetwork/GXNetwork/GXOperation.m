@@ -30,7 +30,7 @@
 //            return;
 //        }
         
-        NSLog(@"GXOperation start request =%@",[self requestLog]);
+        NSLog(@"\nGXOperation start request =%@",[self requestLog]);
         NSCondition *condition = [NSCondition new];
         __block NSData * _Nullable resData = NULL;
         __block NSURLResponse * _Nullable resResponse = NULL;

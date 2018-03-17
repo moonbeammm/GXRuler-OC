@@ -162,9 +162,7 @@
     }
     self.currentChildVC.view.frame = cell.contentView.bounds;
     [cell.contentView addSubview:self.currentChildVC.view];
-    [self.currentChildVC didMoveToParentViewController:self.parentVC];
-    
-    NSLog(@"当前的index:%ld", indexPath.row);
+    [self.currentChildVC didMoveToParentViewController:self.parentVC];    
 }
 
 #pragma mark - Initialize Method
