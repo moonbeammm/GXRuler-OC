@@ -8,7 +8,7 @@
 
 #import "NSString+RouterUrl.h"
 
-#define BILIDOMAINSUFFIX "com|tv|cn|co"
+#define GXDOMAINSUFFIX "com|tv|cn|co"
 
 static NSRegularExpression *httpRegrex;
 static NSRegularExpression *homeRegrex;
@@ -69,9 +69,9 @@ static NSRegularExpression *homeRegrex;
         return nil;
     }
     if (!homeRegrex) {
-        // @"home\\.("BILIDOMAINSUFFIX")\\/(\\d+)\\#\\!epid\\=(\\d+)" 这个url就包含了两个参数
+        // @"home\\.("GXDOMAINSUFFIX")\\/(\\d+)\\#\\!epid\\=(\\d+)" 这个url就包含了两个参数
         // 下面这个只有一个参数
-        homeRegrex = [NSRegularExpression regularExpressionWithPattern:@"live\\.("BILIDOMAINSUFFIX")\\/(\\d+)" options:NSRegularExpressionCaseInsensitive error:nil];
+        homeRegrex = [NSRegularExpression regularExpressionWithPattern:@"live\\.("GXDOMAINSUFFIX")\\/(\\d+)" options:NSRegularExpressionCaseInsensitive error:nil];
     }
 
     NSArray *matches = [homeRegrex matchesInString:self

@@ -40,6 +40,22 @@
     XCTAssert([encodeUrl isEqualToString:oldEncodeUrl],@"不一样,出问题啦.");
 }
 
+- (void)testRouter {
+//    NSString *name = [@"" stringByUriEncode];
+    NSString *name = @"hahahah";
+    NSString *url = [NSString stringWithFormat: @"?name=%@",name];
+    
+    NSArray *arr = [url componentsSeparatedByString:@"="];
+    
+    if (arr.count > 1) {
+        NSString *encodeName = arr[1];
+        NSString *decodeName = [encodeName stringByRemovingPercentEncoding];
+        NSLog(@"%@",decodeName);
+    }
+    
+
+}
+
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
     [self measureBlock:^{

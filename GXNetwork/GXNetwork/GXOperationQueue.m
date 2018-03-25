@@ -37,7 +37,7 @@
 
 - (void)URLSession:(NSURLSession *)session didReceiveChallenge:(NSURLAuthenticationChallenge *)challenge completionHandler:(void (^)(NSURLSessionAuthChallengeDisposition, NSURLCredential *))completionHandler{
     if([challenge.protectionSpace.authenticationMethod isEqualToString:NSURLAuthenticationMethodServerTrust]){
-        if([challenge.protectionSpace.host containsString:@"bilibili"]){
+        if([challenge.protectionSpace.host containsString:@"gx"]){
             NSURLCredential *credential = [NSURLCredential credentialForTrust:challenge.protectionSpace.serverTrust];
             completionHandler(NSURLSessionAuthChallengeUseCredential,credential);
             return;

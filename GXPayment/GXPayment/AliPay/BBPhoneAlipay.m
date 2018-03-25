@@ -26,7 +26,7 @@
 
 + (void)alipayWithOrder:(NSString *)orderString callBack:(BBPhoneVIPPayResultBlock)callBack
 {
-//    NSString *appScheme = @"bilibili";
+//    NSString *appScheme = @"gx";
 //    [[AlipaySDK defaultService] payOrder:orderString fromScheme:appScheme callback:^(NSDictionary *resultDic) {
 //        NSInteger code = [[resultDic objectForKey:@"resultStatus"] integerValue];
 //        BBPhonePayResultModel * res = [BBPhonePayResultModel new];

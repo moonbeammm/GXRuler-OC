@@ -1,9 +1,9 @@
 //
 //  UIScrollView+BiliSVPullToRefresh.m
-//  BiliCore
+//  
 //
-//  Created by chenguang on 17/3/13.
-//  Copyright © 2017年 bilibili. All rights reserved.
+//  Created by gx on 17/3/13.
+//  Copyright © 2017年 gx. All rights reserved.
 //
 
 #import <QuartzCore/QuartzCore.h>
